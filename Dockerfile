@@ -1,5 +1,5 @@
-FROM debian:jessie
-MAINTAINER kost - https://github.com/kost
+FROM debian:buster
+MAINTAINER ZikyHD - https://github.com/ZikyHD
 
 RUN apt-get -qq update && \
 apt-get install -yq  wget curl libpcre3-dev uuid-dev libmagic-dev pkg-config g++ flex bison zlib1g-dev libffi-dev gettext libgeoip-dev make libjson-perl libbz2-dev libwww-perl libpng-dev xz-utils libffi-dev python git openjdk-7-jdk libssl-dev && \
